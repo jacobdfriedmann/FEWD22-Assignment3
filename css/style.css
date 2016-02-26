@@ -46,15 +46,117 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
 }
 
+nav {
+  font-size: 24px;
+  font-weight: 800;
+}
 
+p {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+ul {
+  font-size: 13px;
+  font-weight: 300;
+  list-style: disc;
+  list-style-position: inside;
+  padding: 20px;
+}
+
+li {
+  padding-left: 20px;
+}
+
+blockquote {
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 300 italic;
+  width: 40%;
+  color: white;
+  margin: auto;
+  padding: 50px;
+}
+
+strong {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+img {
+  padding: 10px 10px 40px 10px;
+}
+
+.navhead {
+  color: white;
+  text-align: left;
+  padding: 20px 0px;
+}
+
+.landing {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  padding:70px;
+}
+
+.headbutton {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  background-color: #f9e42e;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.cta button {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  color: white;
+  background-color: #033048;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.benefits {
+  text-align: left;
+  color: black;
+}
+
+.benefitsheader {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.bottom {
+  color: #f9e42e;
+  text-align: center;
+  padding: 50px 0px 30px 0px;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -63,16 +165,32 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
-
 }
 
 header {
+  margin: none;
+  min-height: 500px;
+  text-align: center;
+  background-image: url(../images/header_bg.jpg);
+  background-size: 100%;
+}
 
+section.blockquote {
+  margin: none;
+  background-image: url(../images/testimonial_bg.jpg);
+}
+
+section.cta {
+  text-align: center;
+  background-color: #f9e42e;
+  margin: none; 
 }
 
 footer {
-
+  text-align: center;
+  background-color: #000;
+  color: white;
+  margin: none;
 }
 
 /******************************************
