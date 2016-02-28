@@ -46,12 +46,12 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    color: #000;
+    font-family: Open Sans, sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
 }
 
 
@@ -64,21 +64,117 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
-
 }
 
 header {
-
+  padding: 40px;
+  color: white;
 }
 
 footer {
+  padding: 40px;
+  background-color: #121212;
+  color: white;
+  font-weight: 600;
+  font-size: 9px;
+}
 
+ul {
+    list-style: disc inside none;
+}
+section {
+  padding-bottom: 10px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.h1 {
+  font-weight: 800;
+  font-size: 24px;
+  padding-bottom: 80px;
+}
 
-
-
+.h2 {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.button1 {
+  font-weight: 800;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  height: 45px;
+  width: 195px;
+}
+.h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #033048;
+  padding-bottom: 20px;
+}
+.benefitsbg {
+  background-color: #f0efef;
+  padding: 40px;
+  color: #606161;
+}
+.benefitswidth {
+  width: 600px;
+  margin: auto;
+}
+.list {
+  font-weight: 300;
+  font-size: 13px;
+}
+.blockquote {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  padding: 40px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+.button2 {
+  font-weight: 800;
+  font-size: 12px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #033048;
+  height: 45px;
+  width: 200px;
+}
+.signup {
+  background-color: #f9e42e;
+  padding: 30px;
+}
+.h4 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  padding-bottom: 10px;
+}
+.center{
+  text-align: center;
+  margin: auto;
+}
+.em {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+}
+.paddingsmall {
+  padding: 10px;
+}
+.paddinglarge {
+  padding-bottom: 100px;
+}
+.pwidth {
+  width: 400px;
+  padding-bottom: 10px;
+}
