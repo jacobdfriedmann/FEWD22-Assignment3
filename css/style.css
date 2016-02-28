@@ -1,84 +1,227 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Home Page
+Client: Relaxr
+Author: Jessica Lewis
+Developer @GA in DC
 */
 
-
+/* CSS Reset 
+#element { 
+  margin:0; 
+  padding:0; 
+  font-size:100%; 
+  line-height:1; 
+}
+...
+#element rules: 
+#element { 
+  margin:5px 0 10px; 
+  font-size:13px; 
+  line-height:1.5; 
+}
+*/
 /******************************************
 /* SETUP
 /*******************************************/
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+ -moz-box-sizing: border-box; /* Firexfox */
+ -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+ box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
+/* Clear fix hack
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
-
 .clear {
   clear: both;
 }
-
 .alignright {
   float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  padding: 0 0 10px 10px; note the padding around a right floated image
 }
-
 .alignleft {
   float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  padding: 0 10px 10px 0; note the padding around a left floated image 
 }
-
+*/
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+ color: #000;
+ font-size: 12px;
+ line-height: 1.4;
+ font-family: 'Open Sans', sans-serif; 
 }
-
-
+button {
+  border-radius: 5px;
+  padding: 8px 35px;
+  text-align: center;
+  margin: 10px;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
+/* Center the Container */
+#container {  
   height: 500px;
-
+  width: 900px;
+  margin: auto;
 }
-
 header {
-
+  background: url(../images/header_bg.jpg) no-repeat center top fixed rgb(134,141,157);
+  min-height: 500px;
 }
-
+.header-container {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+.benefits {
+  background: #f0efef;
+}
+.benefits-container {
+  width: 800px;
+  margin: auto;
+  padding: 40px 40px;
+}
+.testimonial {
+  background: url(../images/testimonial_bg.jpg);
+}
+.testimonial-container {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 40px 30px;
+}
+.sign-up {
+  background: #f9e42e;
+  text-align: center;
+}
+.sign-up-containter {
+  width: 40%;
+  margin: auto;
+  padding: 40px 30px;
+}
 footer {
-
+  background: #121212;
+  color: #fff;
+}
+.footer-container {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* HEADER
 /*******************************************/
 
+nav {
+  font-weight: 800;
+  font-size: 24px;
+  color: #fff;
+  padding: 20px 0;
+  text-align: left;
+  margin-left: 20px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+}
+#btn-header {
+  font-weight: 800;
+  font-size: 14px;
+  background: #f9e42e;
+  color: #033048;
+  border: 1px solid #f9e42e;
+  margin-top: 30px;
+}
 
+/******************************************
+/* SECTION BENEFITS
+/*******************************************/
 
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+ul {
+  list-style: disc;
+  list-style-position: inside;
+  font-weight: 300;
+  font-size: 13px;
+  margin-left: 40px;
+}
+.benefits-container p {
+  font-weight: 300;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
 
+/******************************************
+/* SECTION TESTIMONIAL
+/*******************************************/
+
+blockquote {
+  margin: 0;
+}
+.testimonial blockquote {
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+  color: #fff;
+}
+.testimonial cite {
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
+  color: #fff;
+}
+
+/******************************************
+/* SECTION SIGN UP
+/*******************************************/
+
+#btn-sign-up {
+  font-weight: 800;
+  font-size: 12px;
+  background: #033048;
+  border: 1px solid #033048;
+  color: #fff;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+footer p {
+  font-weight: 600;
+  font-size: 9px;
+}
+footer p:first-child {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  margin-bottom: 30px;
+}
+.img-size {
+  padding: 0 20px 0 0;
+  margin-bottom: 30px;
+}
