@@ -115,7 +115,7 @@ header {
   padding: 40px 30px;
 }
 footer {
-  background: #000;
+  background: #121212;
   color: #fff;
 }
 .footer-container {
@@ -201,7 +201,7 @@ blockquote {
 
 #btn-sign-up {
   font-weight: 800;
-  font-size: 14px;
+  font-size: 12px;
   background: #033048;
   border: 1px solid #033048;
   color: #fff;
