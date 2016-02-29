@@ -46,12 +46,9 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  font-family: 'Open Sans';
+  background-color:darkgrey; 
+     
 }
 
 
@@ -64,10 +61,12 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
+  padding:10px;
 
 }
 
 header {
+ 
 
 }
 
@@ -78,7 +77,181 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.website{
+  width:800px;
+  margin:auto;
+}
+
+.landing{
+   background: url(../images/header_bg.jpg) no-repeat center top;
+  background-size: cover;
+  min-height:450px;
+  padding-top:10px;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 24px;
+}
+
+h2{
+  font-weight:600;
+  font-size: 24px;
+  margin-top:100px;
+}
+
+.title{
+    width: 500px;
+    color:white;
+    margin: 40px auto 0px auto;
+}
+
+.intro{
+  color:white;
+  width:600px;
+  margin: 75px auto 50px auto;
+  text-align: center;
+}
+
+button{
+  display:block;
+  width:150px;
+  margin:auto;
+  text-align: center;
+}
+
+#topbutton{
+  background-color: #f9e42e;
+  font-weight: 800;
+  font-size: 14px;
+  border:none;
+  border-radius:5px;
+  padding:5px 10px 5px 10px;
+}
+
+.content{
+  background-color: #f0efef;
+  min-height:450px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.benefits{
+  width:500px;
+  margin: 100px auto 15px auto;
+  font-weight:600;
+  font-size:20px;
+  color:#033048;
+}
+
+.explanation{
+  font-weight:300;
+  font-size: 13px;
+  width:500px;
+  padding-right: 100px;
+  margin: 10px auto 25px auto;
+}
+
+.points{
+  font-weight:300;
+  font-size: 13px;
+  width:400px;
+  padding-right: 100px;
+  margin: 10px auto 25px auto;
+}
 
 
+
+ul{
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+li{
+  margin: 10px 0px 10px 0px;
+  line-height: 120%;
+}
+
+
+.testimonial{
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+  min-height:250px;
+  padding-top:10px;
+  text-align: center;
+  padding-bottom:10px;
+}
+
+.quote{
+  width:300px;
+  margin:50px auto 20px auto;
+  color:#606161;
+  font-weight:300;
+  font-style: italic;
+  font-size: 18px;
+
+}
+
+.name{
+  color:white;
+  width:300px;
+  margin:auto;
+  font-weight: 600;
+  font-size:18px;
+}
+
+#banner{
+  padding:10px 0px 10px 0px;
+  background-color: #f9e42e;
+  padding:15px;
+}
+
+.bottombutton{
+  color:white;
+  background-color: #033048;
+  font-weight: 800;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  padding:5px;
+}
+
+.moreinfo{
+  padding:10px 0px 10px 0px;
+  background-color: #121212;
+}
+
+.company{
+  color:#f9e42e;
+  width:300px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  margin: 25px auto 25px auto;
+
+}
+
+.socialmedia{
+  width:200px;
+  margin:auto;
+  text-align: center;
+}
+
+.socialmediaimage{
+  margin:10px;
+}
+
+.copyright{
+  font-weight: 600;
+  font-size: 9px;
+  color:white;
+  width:200px;
+  margin:50px auto 10px auto;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
 
 

@@ -1,4 +1,4 @@
-Relaxr Landing Page: Part 1
+	Relaxr Landing Page: Part 1
 ==================
 
 We'll be working on this site for the next three classes, just a heads up.
@@ -13,7 +13,7 @@ dark blue: #033048
 light grey: #606161
 almost black: #121212
 
-Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
+Font: Open Sans (Google Font:<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,800,600' rel='stylesheet' type='text/css'>)
 Weight: Light, Light Italic, Semibold, Extrabold
 
 "Relaxr" - Extra bold, 24px
@@ -33,3 +33,4 @@ Weight: Light, Light Italic, Semibold, Extrabold
 
 Relaxr - extra bold, 24px
 "Copyright 2015. Relaxr." - 9px, semibold
+
