@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Liz Calka
+Developer @GA in DC
 */
 
 
@@ -41,17 +41,48 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #000;
+  font-size: 13px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 85px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+}
+
+header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 256px;
+  text-align: center;
+}
+
+footer {
+  font-size: 9px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #121212;
+  text-align: center;
+  padding: 50px 0px;
 }
 
 
@@ -60,25 +91,111 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+#containerMain {
   width: 100%;
   margin: auto;
   height: 500px;
 
 }
 
-header {
-
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.headerLogo {
+  font-size: 24px;
+  font-weight: 800;
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+  color: #ffffff;
+}
 
+.footerLogo { 
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+  display: block;
+}
 
+.primaryButton {
+  font-size: 14px;
+  font-weight: 800;
+  color: #033048;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  border: none;
+  padding: 10px 20px;
+}
+
+.secondaryButton {
+  font-size: 12px;
+  font-weight: 800;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #033048;
+  border: none;
+  padding: 10px 20px;
+}
+
+.benefits {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0efef;
+  padding: 50px 0px;
+}
+
+.benefits .description {
+  margin: 20px 0px;
+}
+
+.benefitsList {
+  margin-left: 50px;
+  list-style-type: disc;
+}
+
+.testimonial {
+      background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+}
+
+.testimonialContent {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.testimonialQuote {
+  font-size: 18px;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.testimonialName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.signUp {
+  text-align: center;
+  background-color: #f9e42e;
+  padding: 50px 0px;
+}
+
+.social {
+  margin: 20px 0px;
+}
+
+.social img {
+  margin: 0px 10px;
+}
 
