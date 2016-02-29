@@ -45,14 +45,147 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
+#container {
+  border: 5px;
+  border-color: #606161;
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+
 body {
-     color: #000;
+  font-family: 'Open Sans';
+}
+
+header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  color: white;
+  padding-bottom: 200px;
+  padding-left: 50px;
+  margin: auto;
+  text-align: center;
+
+}
+
+header h2 {
+  text-align: center;
+  padding: 100px 100px;
+}
+
+h1 {
+  font-size: 24px;
+  float: left;
+  padding-bottom: 300px;
+  margin-right: 50px;
+}
+
+section {
+     background-color: #f0efef;
+     color: black;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     background-size: cover;
+    padding: 40px; 10px;
+    border: 1px #f0efef;
 }
+
+button {
+    background-color: #f9e42e;
+    border-color: #f9e42e;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: #033048;
+}
+
+h3 {
+  color: #033048;
+  font-size: 20px;
+
+}
+
+h3 li {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+
+h3 {
+  color: #033048;
+  font-size: 24px;
+  font-weight: semibold;
+}
+
+h3 p {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+li {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+div {
+    text-align: center;
+    background: url(../images/testimonial_bg.jpg);
+    color: #FFFFFF;
+    font-variant: italic;
+}
+
+div p {
+  font-weight: semibold;
+  font-size: 18px;
+}
+
+blockquote {
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+aside {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 15px;
+}
+
+aside button {
+      font-size: 12px;
+      font-weight: bolder;
+      color: white;
+      background-color: #033048;
+      border-radius: 5px;
+      text-align: center;
+      padding: 15px;
+}
+
+footer {
+  background-color: #121212;
+  color: #f9e42e;
+  text-align: center;
+  padding: 20px;
+
+}
+
+img {
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+
 
 
 /******************************************
@@ -60,10 +193,7 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
+
 
 }
 
