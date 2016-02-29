@@ -9,7 +9,7 @@ Developer @GA in NYC
 /******************************************
 /* SETUP
 /*******************************************/
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,800italic,800,700italic,700,600italic,300italic,300);
 /* Box Model Hack */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
@@ -27,19 +27,6 @@ Developer @GA in NYC
      height: 0;
 }
 
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
 
 /******************************************
 /* BASE STYLES
@@ -47,11 +34,126 @@ Developer @GA in NYC
 
 body {
      color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: "open sans";
+}
+
+header {
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;  
+    min-height: 400px;
+    color: white;
+    /*width: 100%;*/
+}
+
+h1 {
+  margin-top: 30px;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.text-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.button-header-background {
+  text-align: center;
+}
+
+.button-header {
+    margin: auto;
+    color:  #033048;
+    background: yellow;
+    /* border-style: solid; */
+    border-width: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+
+
+section {
+  background-color: #f0efef;
+  min-height: 400px;
+  /*width: 100%;*/
+}
+
+.subtitle-section {
+  margin-top:70px; 
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.text-section {
+  font-weight: 400;
+  font-size: 13px;
+  padding-left: 100px;
+}
+
+ul {
+  font-weight: 400;
+  font-size: 13px;
+  padding-left: 200px;
+  margin: auto; 
+}
+
+blockquote p {
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+
+footer {
+  background-color: #121212;
+  min-height: 600px;
+  text-align: center;
+  /*width: 100%;*/
+}
+
+.container blockquote p {
+  font-weight: 400;
+  font-style: Italic;
+  font-size: 18px;
+  padding: 100px 300px;
+}
+  
+.container blockquote span {
+  font-weight: 600;
+}
+
+.button-footer-background {
+  background-color: #f9e42e;
+  padding: 15px;
+}
+
+.button-footer {
+  color: white;
+  background: navy;
+/* border-style: solid; */
+  border-width: 0;
+  border-radius: 3px;
+  padding: 15px 15px;
+  font-weight: 800;
+}
+
+.container p {
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.footer-name {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: yellow;
 }
 
 
@@ -60,19 +162,11 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 100%;
+.container {
+  width: 1000px;
+  min-height: 350px;
   margin: auto;
-  height: 500px;
-
-}
-
-header {
-
-}
-
-footer {
-
+  overflow: auto;
 }
 
 /******************************************
