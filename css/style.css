@@ -46,14 +46,17 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+         font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', sans-serif;
+      box-sizing: border-box;
+      width: 700px;
+      margin: 0 auto;
 }
 
+html {
+  box-sizing: border-box;
+}
 
 /******************************************
 /* LAYOUT
@@ -63,22 +66,167 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+
 
 }
 
 header {
+font-weight: 700;
+font-size: 24px;
+color: #ffffff;
+padding-top: 10px;
+padding-left: 80px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  margin: auto;
+
+
+}
+
+.submit-button {
+  font-weight:800;
+  font-size: 14px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #f9e42e;
+  padding: 8px 35px;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  color: #033048;
+} 
+
+
+
+.border_box {
+  box-sizing: border-box;
+  background: url(../images/header_bg.jpg) no-repeat center top ;
+  padding-bottom: 30%;
+  background-size:cover;
+      
+
+  
+}
+
+.benefits {
+  background-color:#f0efef;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  color: #606161;
+
+
+}
+
+.benefits p{
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 330px;
+
+
+}
+.benefits h1{
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+
+}
+
+
+
+.benefits ul {
+  font-weight: 300;
+  font-size: 13px;
+  color: #606161;
+  padding-right: 400px;
+}
+
+.testimonial {
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding: 50px 130px 70px 130px;
+  font-size: 18px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+
+}
+
+.testimonial blockquote{
+  font-style: italic;
+  margin: 0px;
+}
+.testimonial p {
+  font-style: none;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.sign-up {
+  background-color: #f9e42e;
+  padding: 30px 60px 30px 50px;
+  box-sizing: border-box;
+  
+
+
+
+}
+
+.signup-button {
+  background-color: #033048;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 12px;
+  padding: 8px 45px;
+  border-radius: 2px;
+  box-shadow: none;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer p{
+font-weight: 600;
+font-size: 9px;
+color: white;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
 
 }
 
 footer {
+  background-color: black;
+  margin: auto;
+  text-align: center;
+  overflow: auto;
 
+}
+
+footer h1{
+font-size: 24px;
+font-weight: 800;
+color:#f9e42e;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+
+.twitter {
+  padding-right: 15px ;
+  padding-bottom: 15px;
+
+}
+
+.fb {
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
 
