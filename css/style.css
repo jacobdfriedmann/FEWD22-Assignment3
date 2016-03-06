@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Site
+Client: Relaxr
+Author: Colleen O'Reilly
+Developer @GA in DC
 */
 
 
@@ -46,12 +46,10 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+     font-family: 'Open Sans', sans-serif;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+      background: #f0efef;
+    
 }
 
 
@@ -60,18 +58,35 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+#headcontainer {
   width: 100%;
   margin: auto;
-  height: 500px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 400px;
 
 }
 
-header {
+header { 
+  color: white;
+  width: 80%;
+  margin: auto;
+}
 
+main {
+  font-size: 13px;
+  font-weight: 300;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  color: #606161;
 }
 
 footer {
+  background: #121212;
+  text-align: center;
+  color: #ffffff;
+  height: 500px;
 
 }
 
@@ -79,6 +94,90 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+nav {
+  padding: 20px 0px;
+  font-weight: 800;
+  font-size: 24px;
+}
 
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+}
+
+blockquote{
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 3% 20% 5%;
+  font-weight: 600;
+}
+
+cite {
+  font-style: normal;
+  font-weight: 600;
+}
+
+small {
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.quotewrapper {
+  margin: auto;
+  background: url(../images/testimonial_bg.jpg) 
+}
+
+.headerbuttonwrap {
+  text-align: center;
+}
+
+.headerbutton {
+  border-radius: 5px;
+  font-weight: 800;
+  border: 0px;
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #f9e42e;
+}
+
+.footerbutton {
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 12px;
+  border: 0px;
+  width: 150px;
+  height: 40px;
+  background: #033048;
+  color: #ffffff;
+  margin: 20px;
+}
+
+.footerbuttonwrap {
+  background: #f9e42e;
+  text-align: center;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  padding: 10px;
+}
+
+.social {
+  width: 90px;
+  margin: auto;
+}
 
 
