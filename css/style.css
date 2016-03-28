@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr
+Client: Relaxr
+Author: Laura McHugh
+Developer @GA in DC
 */
 
 
@@ -46,38 +46,136 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font: 24px;
+  font-size: 24px;
+  font-weight: bolder;
+  padding-left: 20px; 
+  padding-top: 20px;
+  color: white;
 }
 
+h2{
+  font: 20px;
+  font-weight: 600px;
+  font: #033048;
+
+}
+#logo {
+  text-align: center;
+  font-weight: 600;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
 
+.container {
+  max-width: 700px;
+  margin: auto;
 }
 
 header {
-
+    background: url(../images/header_bg.jpg) no-repeat center rgb(134,141,157);
+    width: 700px;
+    margin: auto;
+    height: 500px;
 }
 
 footer {
+  font-size: 9px;
+  font-weight: 600px;
+  text-align: center;
+  color: white;
+  background-color:  #121212; /*almost black*/
+  padding-bottom: 10px;
+
+}
+
+article {
+    width: 700px;
+    margin: auto;
 
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.slogan {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.button1 {
+  background-color: #f9e42e; /*yellow*/
+  border: none;
+  color: #033048; /*dark blue*/
+  padding: 15px 50px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+.benefits {
+    background-color: #f0efef;
+    text-align: left;
+    position: relative;
+    padding: 30px;
+}
+.benefits p {
+    font-size: 13px;
+  font-weight: 300px;
+}
+.benefits ul {
+  font-size: 13px;
+  font-weight: 300px;
+
+}
+.testimonial {
+    background-color: #f0efef;
+    text-align: center;
+    position: relative;
+    background: url(../images/testimonial_bg.jpg);
+    color: white;
+        padding: 30px;
+}
+.sign-up{
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 15px;
+}
+.button2 {
+  background-color: #033048; /*dark blue*/
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bolder;
+  border: 5px;
+}
+.social {
+  background-color: #121212; /*almost black*/
+  color: #f9e42e; /*yellow*/
+  text-align: center;
+  padding: 20px;
+
+}
+table {
+  text-align: center;
+  padding: 60px;
+  width: 400px;
+}
+/*I'm having trouble centering the table and i can't figure out why*/
 
 
 
